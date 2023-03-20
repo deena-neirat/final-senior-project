@@ -1,0 +1,73 @@
+.navGlobale {
+    background-color: rgba(7, 7, 7, 0.6);
+}
+
+.navGlobaleColor {
+    background-color: rgb(7, 7, 7);
+}
+
+.active {
+    font-weight: bold;
+    border-bottom: #19aae6 solid 2px;
+}
+
+.navbar-profile {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.ml-1 {
+    margin-left: 0.5rem;
+}
+
+.navbar-logo {
+    height: 50px;
+}
+
+.submit-btn1 {
+    display: inline-block;
+    position: relative;
+    color: #eff2f4;
+    background-color: rgba(247, 245, 245, 0.1);
+    /* font-family: Georgia, "Times New Roman", Times, serif; */
+    font-weight: 400;
+    font-size: 17px;
+    border-radius: 5px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+    width: 120px;
+    height: 55px;
+}
+
+.submit-btn1:before {
+    content: "";
+    position: absolute;
+    background-color: #19aae6;
+    height: 85px;
+    width: 100px;
+    border-radius: 50%;
+    z-index: -1;
+    top: 100%;
+    left: 100%;
+    transition: 0.7s;
+}
+
+.submit-btn1:hover {
+    color: #fff;
+}
+
+.submit-btn1:hover:before {
+    top: -30px;
+    left: -30px;
+}
+
+.submit-btn1:active:before {
+    color: #ced4da;
+    transition: 0s;
+}

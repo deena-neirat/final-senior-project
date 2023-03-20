@@ -1,0 +1,32 @@
+.userGuide {
+    background-image: url("../images/userguide.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.vidoGuidediv {
+    margin-top: 100px;
+}
+
+.vidoGuide {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.vidoGuideText {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+
+.pad{
+    margin-left: 10%;
+}

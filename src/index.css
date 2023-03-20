@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: "Averia Serif Libre", cursive !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+
+.text-main {
+  color: #47b4dc !important;
+}
+
+.ar-f {
+  font-family: "El Messiri", sans-serif !important;
+}

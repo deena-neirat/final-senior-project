@@ -1,0 +1,26 @@
+.appointment2 {
+    background-color: rgb(245, 244, 248);
+    color: #222;
+    border-radius: 8px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-align: center;
+    justify-content: center;
+    margin-top: 190px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.first-reservation-container12 .card {
+    background-color: transparent !important;
+    border: 0;
+}
+
+.first-reservation-container12 tbody td {
+    line-height: 38px;
+}
+
+.dot{
+    list-style: none;
+}

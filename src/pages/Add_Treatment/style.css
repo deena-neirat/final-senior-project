@@ -1,0 +1,16 @@
+ol {
+    list-style-type: none;
+    /* padding-left: 0; */
+  }
+
+  .element {
+    width: 11%;
+    }
+
+    .element2 {
+      width: 2%;
+      }
+    .btnelemnt{
+      width: 45%;
+      margin-left: 30%;
+    }

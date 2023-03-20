@@ -1,0 +1,111 @@
+.backeground-SignUp {
+    background: url("../images/tooth_sginup.jpg");
+    background-size: cover;
+}
+
+.headTitle {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    /* font-family: Georgia, "Times New Roman", Times, serif; */
+    padding-top: 100px;
+}
+
+.formInput label {
+    font-size: 20px;
+    color: #fff;
+}
+
+.formInput form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    border: #fff solid;
+    /* font-family: Georgia, "Times New Roman", Times, serif; */
+    gap: 1rem;
+}
+
+/* .label_input,
+button {
+    margin-top: 1rem; 
+} */
+
+.lable_input {
+    width: 20px;
+}
+
+.auth_card {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.signUp_form {
+    background-color: rgba(9, 9, 9, 0.4);
+}
+
+.male {
+    margin-right: 1rem;
+}
+
+.error_message {
+    color: red;
+}
+
+.phone-input {
+    padding: 0.375rem 0.75rem !important;
+    border: 1px solid #ced4da !important;
+}
+
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:before,
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:after {
+    border: 0 !important;
+}
+
+.submit-btn {
+    display: inline-block;
+    position: relative;
+    color: #19aae6;
+    background-color: #fff;
+    /* font-family: Georgia, "Times New Roman", Times, serif; */
+    font-weight: 500;
+    font-size: 17px;
+    padding: 16px 24px;
+    margin: 20px;
+    /* border: 5px solid #0c0c0c; */
+    border-radius: 5px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.submit-btn:before {
+    content: "";
+    position: absolute;
+    background-color: #19aae6;
+    height: 150px;
+    width: 250px;
+    border-radius: 50%;
+    z-index: -1;
+    top: 100%;
+    left: 100%;
+    transition: 0.7s;
+}
+
+.submit-btn:hover {
+    color: #fff;
+}
+
+.submit-btn:hover:before {
+    top: -30px;
+    left: -30px;
+}
+
+.submit-btn:active:before {
+    color: #ced4da;
+    transition: 0s;
+}

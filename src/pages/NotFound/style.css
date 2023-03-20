@@ -1,0 +1,43 @@
+.spinner {
+  background-image: linear-gradient(rgb(255, 66, 66) 35%, rgb(0, 225, 255));
+  width: 88vw;
+  height: 88vw;
+  max-width: 400px;
+  max-height: 400px;
+  animation: spinning82341 1.7s linear infinite;
+  align-items: center;
+  border-radius: 50%;
+  filter: blur(1px);
+  box-shadow: 0px -5px 20px 0px rgb(247, 31, 31),
+    0px 5px 20px 0px rgb(0, 225, 255);
+  margin: auto;
+}
+
+.back {
+  background-color: black;
+}
+
+.spinner1 {
+  background-color: rgb(13, 13, 13);
+  width: 385px;
+  height: 385px;
+  border-radius: 50%;
+  filter: blur(10px);
+}
+
+.text {
+  background-color: black;
+  padding: 30px;
+  margin-top: 50px;
+  border: none;
+}
+
+.coloerText {
+  color: rgb(244, 41, 41);
+  font-size: 50px;
+}
+@keyframes spinning82341 {
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,68 @@
+.appointment9 {
+    background-color: rgb(245, 244, 248);
+    color: #222;
+    border-radius: 8px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.first-reservation-container19 .card {
+    background-color: transparent !important;
+    border: 0;
+}
+
+.first-reservation-container19 tbody td {
+    line-height: 38px;
+}
+
+.dot{
+    list-style: none;
+}
+
+.box{
+    background :linear-gradient(to bottom,rgba(0,0,0,0.05),#edf1f4);
+    padding :20px;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: 15px 15px 20px rgba(0,0,0,0.1);
+}
+
+.range{
+width: 400px;
+height: 15px;
+/* appearance: none; */
+background-color: #9dbed7;
+/* outline: none; */
+/* border-radius: 15px; */
+box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+.space{
+    justify-content: space-evenly;
+}
+.color1{
+    /* background-color: rgb(101, 176, 234); */
+    background :linear-gradient(to bottom,rgba(0,0,0,0.05),#db636b);
+
+    font-size: x-large;
+}
+.color2{
+    /* background-color: rgb(18, 191, 244); */
+    background :linear-gradient(to bottom,rgba(0,0,0,0.05),#cde171);
+    font-size: x-large;
+
+
+}
+.color3{
+    /* background-color: rgb(69, 182, 207);
+     */
+    background :linear-gradient(to bottom,rgba(0,0,0,0.05),#4f9a87);
+    font-size: x-large;
+
+
+}

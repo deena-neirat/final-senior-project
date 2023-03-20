@@ -1,0 +1,134 @@
+.calender .day {
+  position: relative;
+  width: calc(94.5% / 7);
+  height: 44px;
+  display: inline-block;
+  padding: 8px;
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: center;
+}
+
+.St {
+  position: relative;
+  width: calc(89% / 7);
+  display: inline-block;
+  padding: 5px;
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: center;
+}
+
+.react_calender {
+  padding: 2rem;
+  margin: 2rem 0;
+  max-width: 100%;
+
+  color: #222;
+  border-radius: 8px;
+
+  /* font-family: Arial, Helvetica, sans-serif; */
+  text-align: center;
+  justify-content: center;
+}
+
+.react_calender > div {
+  background-color: rgb(245, 244, 248);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  padding: 15px;
+}
+
+.calender_header {
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: space-between;
+      align-items: center;
+      background: #47b4dc;
+      color: #fff; */
+  /* width: 250px; */
+}
+
+.calendar-head {
+  font-weight: 600;
+}
+
+.prev,
+.next {
+  margin: 0 1rem;
+  font-size: xx-large;
+}
+
+.selected {
+  justify-content: center;
+  align-items: center;
+  background: #47b4dc;
+}
+
+.today {
+  background: #d53943;
+}
+
+.day > div {
+  height: 30px;
+  line-height: 30px;
+}
+
+.before {
+  color: #c8c8c8;
+}
+
+.today,
+.selected {
+  color: #fff;
+}
+
+.green {
+  background-color: #43b110 !important;
+}
+
+.orange {
+  background-color: #d46701 !important;
+}
+
+.red {
+  background-color: #c52e38 !important;
+}
+
+.message {
+  text-align: center;
+  font-size: 20px;
+}
+
+.calender {
+  /* height: 350px; */
+  flex-direction: column;
+  /* gap: 1rem; */
+}
+
+/* .body-calendar {
+      flex-grow: 2;
+      align-self: center;
+  } */
+
+.current {
+  font-size: 30px;
+}
+
+.current > span {
+  font-size: 60px;
+}
+
+.first-reservation-container .card {
+  background-color: transparent !important;
+  border: 0;
+}
+
+.first-reservation-container tbody td {
+  line-height: 38px;
+}
+
+.w-custom {
+  width: calc(50% - 0.75rem);
+}

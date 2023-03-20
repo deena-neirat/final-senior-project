@@ -1,0 +1,66 @@
+.allback {
+  background: linear-gradient(255deg, #0dcaf0, #398595, #4d8e9b, #f5f7f7);
+  overflow: hidden;
+  /* background-color: #e4e9ea; */
+  /* background-image: url("../images/userguide.jpg"); */
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.padding {
+  padding-top: 76px;
+}
+
+.child {
+  font-size: 20px;
+  text-align: right;
+  font-family: "El Messiri", sans-serif !important;
+  /* order: -1; */
+}
+
+.child1 {
+  border-radius: 20% 50% 70% 120%;
+  background: linear-gradient(255deg, #0dddf0, #90e2ea, #bec8c9);
+  padding: 30px;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  box-sizing: border-box;
+  transition: transform 2s;
+  font-size: x-large;
+}
+.child1:hover {
+  font-weight: bold;
+  transform: scale(1.1);
+  background: linear-gradient(255deg, #0dddf0, #90e2ea, #bec8c9);
+  color: black;
+}
+
+.child2 {
+  border-radius: 10px 100px / 120px;
+  padding: 30px;
+
+  background: linear-gradient(255deg, #0dddf0, #90e2ea, #bec8c9);
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  transition: transform 2s;
+  font-size: x-large;
+}
+
+.child2:hover {
+  font-weight: bold;
+  transform: scale(1.1);
+  background: linear-gradient(255deg, #0dddf0, #90e2ea, #bec8c9);
+}
+
+.child3 {
+  background: linear-gradient(255deg, #0dddf0, #90e2ea, #bec8c9);
+  border-radius: 50% 20% / 10% 40%;
+  padding: 30px;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  transition: transform 2s;
+  font-size: x-large;
+}
+
+.child3:hover {
+  font-weight: bold;
+  transform: scale(1.1);
+  background: linear-gradient(255deg, #0dddf0, #90e2ea, #bec8c9);
+}

@@ -1,0 +1,119 @@
+.xr {
+  display: flex;
+  margin-top: 150px;
+}
+
+.xrSearh {
+  height: 500px;
+  width: 40%;
+  margin-left: 45px;
+  margin-right: 30px;
+}
+
+.xrShow {
+  height: 500px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.submit-btnshow {
+  display: inline-block;
+  position: relative;
+  color: #19aae6;
+  background-color: #fff;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-weight: 500;
+  font-size: 17px;
+  padding: 16px 24px;
+  margin: 20px;
+  border-radius: 5px;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.submit-btnshow:before {
+  content: "";
+  position: absolute;
+  background-color: #19aae6;
+  height: 100px;
+  width: 160px;
+  border-radius: 50%;
+  z-index: -1;
+  top: 100%;
+  left: 100%;
+  transition: 0.7s;
+}
+
+.submit-btnshow:hover {
+  color: #fff;
+}
+
+.submit-btnshow:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+.submit-btnshow:active:before {
+  color: #ced4da;
+  transition: 0s;
+}
+
+.putcenter {
+  margin: 0 13%;
+}
+
+
+.appointment3 {
+  background-color: rgb(245, 244, 248);
+  color: #222;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  /* font-family: Arial, Helvetica, sans-serif; */
+  text-align: center;
+  justify-content: center;
+  margin-top: 190px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.first-reservation-container13 .card {
+  background-color: transparent !important;
+  border: 0;
+}
+
+.first-reservation-container13 tbody td {
+  line-height: 38px;
+}
+
+.dot{
+  list-style: none;
+}
+
+.appointment4 {
+  background-color: rgb(245, 244, 248);
+  color: #222;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  /* font-family: Arial, Helvetica, sans-serif; */
+  text-align: center;
+  justify-content: center;
+  margin-top: 90px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.first-reservation-container14 .card {
+  background-color: transparent !important;
+  border: 0;
+}
+
+.first-reservation-container14 tbody td {
+  line-height: 38px;
+}
+
+.dot{
+  list-style: none;
+}
